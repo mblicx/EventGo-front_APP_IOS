@@ -1,0 +1,554 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DBCB08491E12C4AD00466830 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DBCB08481E12C4AD00466830 /* main.m */; };
+		DBCB084C1E12C4AD00466830 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DBCB084B1E12C4AD00466830 /* AppDelegate.m */; };
+		DBCB084F1E12C4AD00466830 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DBCB084E1E12C4AD00466830 /* ViewController.m */; };
+		DBCB08521E12C4AD00466830 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DBCB08501E12C4AD00466830 /* Main.storyboard */; };
+		DBCB08551E12C4AD00466830 /* EventGo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DBCB08531E12C4AD00466830 /* EventGo.xcdatamodeld */; };
+		DBCB08571E12C4AD00466830 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DBCB08561E12C4AD00466830 /* Assets.xcassets */; };
+		DBCB085A1E12C4AD00466830 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DBCB08581E12C4AD00466830 /* LaunchScreen.storyboard */; };
+		DBCB08651E12C4AD00466830 /* EventGoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DBCB08641E12C4AD00466830 /* EventGoTests.m */; };
+		DBCB08701E12C4AD00466830 /* EventGoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DBCB086F1E12C4AD00466830 /* EventGoUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DBCB08611E12C4AD00466830 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DBCB083C1E12C4AD00466830 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DBCB08431E12C4AD00466830;
+			remoteInfo = EventGo;
+		};
+		DBCB086C1E12C4AD00466830 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DBCB083C1E12C4AD00466830 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DBCB08431E12C4AD00466830;
+			remoteInfo = EventGo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DBCB08441E12C4AD00466830 /* EventGo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EventGo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DBCB08481E12C4AD00466830 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DBCB084A1E12C4AD00466830 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DBCB084B1E12C4AD00466830 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DBCB084D1E12C4AD00466830 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DBCB084E1E12C4AD00466830 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DBCB08511E12C4AD00466830 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DBCB08541E12C4AD00466830 /* EventGo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = EventGo.xcdatamodel; sourceTree = "<group>"; };
+		DBCB08561E12C4AD00466830 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DBCB08591E12C4AD00466830 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DBCB085B1E12C4AD00466830 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DBCB08601E12C4AD00466830 /* EventGoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EventGoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DBCB08641E12C4AD00466830 /* EventGoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EventGoTests.m; sourceTree = "<group>"; };
+		DBCB08661E12C4AD00466830 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DBCB086B1E12C4AD00466830 /* EventGoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EventGoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DBCB086F1E12C4AD00466830 /* EventGoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EventGoUITests.m; sourceTree = "<group>"; };
+		DBCB08711E12C4AD00466830 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DBCB08411E12C4AD00466830 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBCB085D1E12C4AD00466830 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBCB08681E12C4AD00466830 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DBCB083B1E12C4AD00466830 = {
+			isa = PBXGroup;
+			children = (
+				DBCB08461E12C4AD00466830 /* EventGo */,
+				DBCB08631E12C4AD00466830 /* EventGoTests */,
+				DBCB086E1E12C4AD00466830 /* EventGoUITests */,
+				DBCB08451E12C4AD00466830 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DBCB08451E12C4AD00466830 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DBCB08441E12C4AD00466830 /* EventGo.app */,
+				DBCB08601E12C4AD00466830 /* EventGoTests.xctest */,
+				DBCB086B1E12C4AD00466830 /* EventGoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DBCB08461E12C4AD00466830 /* EventGo */ = {
+			isa = PBXGroup;
+			children = (
+				DBCB084A1E12C4AD00466830 /* AppDelegate.h */,
+				DBCB084B1E12C4AD00466830 /* AppDelegate.m */,
+				DBCB084D1E12C4AD00466830 /* ViewController.h */,
+				DBCB084E1E12C4AD00466830 /* ViewController.m */,
+				DBCB08501E12C4AD00466830 /* Main.storyboard */,
+				DBCB08561E12C4AD00466830 /* Assets.xcassets */,
+				DBCB08581E12C4AD00466830 /* LaunchScreen.storyboard */,
+				DBCB085B1E12C4AD00466830 /* Info.plist */,
+				DBCB08531E12C4AD00466830 /* EventGo.xcdatamodeld */,
+				DBCB08471E12C4AD00466830 /* Supporting Files */,
+			);
+			path = EventGo;
+			sourceTree = "<group>";
+		};
+		DBCB08471E12C4AD00466830 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DBCB08481E12C4AD00466830 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DBCB08631E12C4AD00466830 /* EventGoTests */ = {
+			isa = PBXGroup;
+			children = (
+				DBCB08641E12C4AD00466830 /* EventGoTests.m */,
+				DBCB08661E12C4AD00466830 /* Info.plist */,
+			);
+			path = EventGoTests;
+			sourceTree = "<group>";
+		};
+		DBCB086E1E12C4AD00466830 /* EventGoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DBCB086F1E12C4AD00466830 /* EventGoUITests.m */,
+				DBCB08711E12C4AD00466830 /* Info.plist */,
+			);
+			path = EventGoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DBCB08431E12C4AD00466830 /* EventGo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DBCB08741E12C4AD00466830 /* Build configuration list for PBXNativeTarget "EventGo" */;
+			buildPhases = (
+				DBCB08401E12C4AD00466830 /* Sources */,
+				DBCB08411E12C4AD00466830 /* Frameworks */,
+				DBCB08421E12C4AD00466830 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EventGo;
+			productName = EventGo;
+			productReference = DBCB08441E12C4AD00466830 /* EventGo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DBCB085F1E12C4AD00466830 /* EventGoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DBCB08771E12C4AD00466830 /* Build configuration list for PBXNativeTarget "EventGoTests" */;
+			buildPhases = (
+				DBCB085C1E12C4AD00466830 /* Sources */,
+				DBCB085D1E12C4AD00466830 /* Frameworks */,
+				DBCB085E1E12C4AD00466830 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DBCB08621E12C4AD00466830 /* PBXTargetDependency */,
+			);
+			name = EventGoTests;
+			productName = EventGoTests;
+			productReference = DBCB08601E12C4AD00466830 /* EventGoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DBCB086A1E12C4AD00466830 /* EventGoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DBCB087A1E12C4AD00466830 /* Build configuration list for PBXNativeTarget "EventGoUITests" */;
+			buildPhases = (
+				DBCB08671E12C4AD00466830 /* Sources */,
+				DBCB08681E12C4AD00466830 /* Frameworks */,
+				DBCB08691E12C4AD00466830 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DBCB086D1E12C4AD00466830 /* PBXTargetDependency */,
+			);
+			name = EventGoUITests;
+			productName = EventGoUITests;
+			productReference = DBCB086B1E12C4AD00466830 /* EventGoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DBCB083C1E12C4AD00466830 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = ShuopuLI;
+				TargetAttributes = {
+					DBCB08431E12C4AD00466830 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 844EB392HT;
+						ProvisioningStyle = Automatic;
+					};
+					DBCB085F1E12C4AD00466830 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 844EB392HT;
+						ProvisioningStyle = Automatic;
+						TestTargetID = DBCB08431E12C4AD00466830;
+					};
+					DBCB086A1E12C4AD00466830 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 844EB392HT;
+						ProvisioningStyle = Automatic;
+						TestTargetID = DBCB08431E12C4AD00466830;
+					};
+				};
+			};
+			buildConfigurationList = DBCB083F1E12C4AD00466830 /* Build configuration list for PBXProject "EventGo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DBCB083B1E12C4AD00466830;
+			productRefGroup = DBCB08451E12C4AD00466830 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DBCB08431E12C4AD00466830 /* EventGo */,
+				DBCB085F1E12C4AD00466830 /* EventGoTests */,
+				DBCB086A1E12C4AD00466830 /* EventGoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DBCB08421E12C4AD00466830 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBCB085A1E12C4AD00466830 /* LaunchScreen.storyboard in Resources */,
+				DBCB08571E12C4AD00466830 /* Assets.xcassets in Resources */,
+				DBCB08521E12C4AD00466830 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBCB085E1E12C4AD00466830 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBCB08691E12C4AD00466830 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DBCB08401E12C4AD00466830 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBCB08551E12C4AD00466830 /* EventGo.xcdatamodeld in Sources */,
+				DBCB084F1E12C4AD00466830 /* ViewController.m in Sources */,
+				DBCB084C1E12C4AD00466830 /* AppDelegate.m in Sources */,
+				DBCB08491E12C4AD00466830 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBCB085C1E12C4AD00466830 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBCB08651E12C4AD00466830 /* EventGoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBCB08671E12C4AD00466830 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBCB08701E12C4AD00466830 /* EventGoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DBCB08621E12C4AD00466830 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DBCB08431E12C4AD00466830 /* EventGo */;
+			targetProxy = DBCB08611E12C4AD00466830 /* PBXContainerItemProxy */;
+		};
+		DBCB086D1E12C4AD00466830 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DBCB08431E12C4AD00466830 /* EventGo */;
+			targetProxy = DBCB086C1E12C4AD00466830 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DBCB08501E12C4AD00466830 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DBCB08511E12C4AD00466830 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DBCB08581E12C4AD00466830 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DBCB08591E12C4AD00466830 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DBCB08721E12C4AD00466830 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DBCB08731E12C4AD00466830 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DBCB08751E12C4AD00466830 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 844EB392HT;
+				INFOPLIST_FILE = EventGo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.efrei.EventGo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DBCB08761E12C4AD00466830 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 844EB392HT;
+				INFOPLIST_FILE = EventGo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.efrei.EventGo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		DBCB08781E12C4AD00466830 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 844EB392HT;
+				INFOPLIST_FILE = EventGoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.efrei.EventGoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EventGo.app/EventGo";
+			};
+			name = Debug;
+		};
+		DBCB08791E12C4AD00466830 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 844EB392HT;
+				INFOPLIST_FILE = EventGoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.efrei.EventGoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EventGo.app/EventGo";
+			};
+			name = Release;
+		};
+		DBCB087B1E12C4AD00466830 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 844EB392HT;
+				INFOPLIST_FILE = EventGoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.efrei.EventGoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = EventGo;
+			};
+			name = Debug;
+		};
+		DBCB087C1E12C4AD00466830 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 844EB392HT;
+				INFOPLIST_FILE = EventGoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.efrei.EventGoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = EventGo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DBCB083F1E12C4AD00466830 /* Build configuration list for PBXProject "EventGo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBCB08721E12C4AD00466830 /* Debug */,
+				DBCB08731E12C4AD00466830 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DBCB08741E12C4AD00466830 /* Build configuration list for PBXNativeTarget "EventGo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBCB08751E12C4AD00466830 /* Debug */,
+				DBCB08761E12C4AD00466830 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DBCB08771E12C4AD00466830 /* Build configuration list for PBXNativeTarget "EventGoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBCB08781E12C4AD00466830 /* Debug */,
+				DBCB08791E12C4AD00466830 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DBCB087A1E12C4AD00466830 /* Build configuration list for PBXNativeTarget "EventGoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBCB087B1E12C4AD00466830 /* Debug */,
+				DBCB087C1E12C4AD00466830 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		DBCB08531E12C4AD00466830 /* EventGo.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				DBCB08541E12C4AD00466830 /* EventGo.xcdatamodel */,
+			);
+			currentVersion = DBCB08541E12C4AD00466830 /* EventGo.xcdatamodel */;
+			path = EventGo.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = DBCB083C1E12C4AD00466830 /* Project object */;
+}
