@@ -9,11 +9,12 @@
 #import <UIKit/UIKit.h>
 #import <CoreData/CoreData.h>
 
-
+@import UserNotifications;
 
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
+//@property (strong, nonatomic) UNMutableNotificationContent * content;
 
 @property (readonly, strong) NSPersistentContainer *persistentContainer;
 

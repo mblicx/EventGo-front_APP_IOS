@@ -257,64 +257,6 @@ Click here to stop scaning</string>
             </objects>
             <point key="canvasLocation" x="760.79999999999995" y="473.6131934032984"/>
         </scene>
-        <!--Gift View Controller-->
-        <scene sceneID="tog-No-KHX">
-            <objects>
-                <viewController storyboardIdentifier="GiftViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="lVb-j4-TXM" customClass="GiftViewController" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="FoJ-Cb-tQK"/>
-                        <viewControllerLayoutGuide type="bottom" id="ZJX-La-J7x"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="Ca4-FL-vbF">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="TkC-EP-w2y">
-                                <rect key="frame" x="0.0" y="20" width="375" height="647"/>
-                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                            </webView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="3w3-vq-VOC">
-                                <rect key="frame" x="0.0" y="20" width="375" height="647"/>
-                            </imageView>
-                            <button opaque="NO" alpha="0.89999999999999991" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tjW-WW-DAz">
-                                <rect key="frame" x="0.0" y="607" width="375" height="60"/>
-                                <color key="backgroundColor" red="0.66666666666666663" green="0.66666666666666663" blue="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="60" id="LvC-ZM-Oif"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" name="OpenSans-Semibold" family="Open Sans" pointSize="17"/>
-                                <state key="normal" title="Terminer">
-                                    <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                </state>
-                                <connections>
-                                    <action selector="goBack:" destination="lVb-j4-TXM" eventType="touchUpInside" id="yD4-Ns-QEd"/>
-                                </connections>
-                            </button>
-                        </subviews>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                        <constraints>
-                            <constraint firstItem="3w3-vq-VOC" firstAttribute="top" secondItem="FoJ-Cb-tQK" secondAttribute="bottom" id="0PH-59-pV0"/>
-                            <constraint firstItem="ZJX-La-J7x" firstAttribute="top" secondItem="3w3-vq-VOC" secondAttribute="bottom" id="0qA-aY-kSf"/>
-                            <constraint firstItem="TkC-EP-w2y" firstAttribute="leading" secondItem="Ca4-FL-vbF" secondAttribute="leading" id="0uq-lA-pBM"/>
-                            <constraint firstItem="ZJX-La-J7x" firstAttribute="top" secondItem="tjW-WW-DAz" secondAttribute="bottom" id="LCf-h8-phw"/>
-                            <constraint firstAttribute="trailing" secondItem="tjW-WW-DAz" secondAttribute="trailing" id="V23-ZV-0jS"/>
-                            <constraint firstItem="tjW-WW-DAz" firstAttribute="leading" secondItem="Ca4-FL-vbF" secondAttribute="leading" id="ZNx-F7-aeW"/>
-                            <constraint firstAttribute="trailing" secondItem="3w3-vq-VOC" secondAttribute="trailing" id="bD1-oF-PdX"/>
-                            <constraint firstItem="TkC-EP-w2y" firstAttribute="top" secondItem="Ca4-FL-vbF" secondAttribute="top" constant="20" id="c0q-Je-Tki"/>
-                            <constraint firstItem="3w3-vq-VOC" firstAttribute="leading" secondItem="Ca4-FL-vbF" secondAttribute="leading" id="kk5-dm-OLi"/>
-                            <constraint firstAttribute="trailing" secondItem="TkC-EP-w2y" secondAttribute="trailing" id="n4c-73-vSO"/>
-                            <constraint firstItem="ZJX-La-J7x" firstAttribute="top" secondItem="TkC-EP-w2y" secondAttribute="bottom" id="ocT-6A-bNB"/>
-                        </constraints>
-                    </view>
-                    <connections>
-                        <outlet property="img_gift" destination="3w3-vq-VOC" id="ydx-96-79c"/>
-                        <outlet property="web_body" destination="TkC-EP-w2y" id="2vj-FL-Ew7"/>
-                    </connections>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="0Vc-cF-klx" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="812" y="1227"/>
-        </scene>
         <!--List Gift Table View Controller-->
         <scene sceneID="alO-xQ-xzo">
             <objects>
@@ -329,7 +271,7 @@ Click here to stop scaning</string>
                             <color key="backgroundColor" red="0.8780597448348999" green="0.87803351879119873" blue="0.87804841995239258" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         </view>
                         <prototypes>
-                            <tableViewCell contentMode="top" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="CellIdentifier" textLabel="ltt-4n-TlE" detailTextLabel="Lwd-hl-jnm" rowHeight="70" style="IBUITableViewCellStyleSubtitle" id="HR3-aj-qcz" customClass="ListGiftsCell">
+                            <tableViewCell contentMode="top" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="notifyCell" textLabel="ltt-4n-TlE" detailTextLabel="Lwd-hl-jnm" rowHeight="70" style="IBUITableViewCellStyleSubtitle" id="HR3-aj-qcz" customClass="ListGiftsCell">
                                 <rect key="frame" x="0.0" y="107" width="375" height="70"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="HR3-aj-qcz" id="QHz-B4-qYL">
@@ -356,6 +298,9 @@ Click here to stop scaning</string>
                                     <color key="backgroundColor" red="0.8780597448348999" green="0.87803351879119873" blue="0.87804841995239258" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </tableViewCellContentView>
                                 <color key="backgroundColor" red="0.8780597448348999" green="0.87803351879119873" blue="0.87804841995239258" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <connections>
+                                    <segue destination="zyZ-u6-jMt" kind="showDetail" identifier="notifiedDetail" id="iPk-Fx-WYu"/>
+                                </connections>
                             </tableViewCell>
                         </prototypes>
                         <connections>
@@ -398,8 +343,8 @@ Click here to stop scaning</string>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="64" id="Pux-mG-Fn9"/>
                                         </constraints>
-                                        <fontDescription key="fontDescription" name="OpenSans" family="Open Sans" pointSize="17"/>
-                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="23"/>
+                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="kLi-Wf-stC">
@@ -432,7 +377,7 @@ Click here to stop scaning</string>
                                     <constraint firstAttribute="height" constant="60" id="5VW-36-9Ye"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="OpenSans-Semibold" family="Open Sans" pointSize="17"/>
-                                <state key="normal" title="Terminer">
+                                <state key="normal" title="Back">
                                     <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
@@ -516,7 +461,7 @@ Click here to stop scaning</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="uF9-MU-jI5" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1492" y="1170.7646176911546"/>
+            <point key="canvasLocation" x="839" y="1305"/>
         </scene>
         <!--Detail Place View Controller-->
         <scene sceneID="c1e-Xn-DdB">
@@ -710,59 +655,7 @@ Click here to stop scaning</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="eo2-VL-xvW" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1736" y="472.26386806596707"/>
-        </scene>
-        <!--Map View Controller-->
-        <scene sceneID="n1t-FL-bcY">
-            <objects>
-                <viewController id="78N-W0-JFt" customClass="MapViewController" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="uKf-GT-tjY"/>
-                        <viewControllerLayoutGuide type="bottom" id="zUb-yd-U4t"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="zro-kS-KE9">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" pitchEnabled="NO" showsUserLocation="YES" translatesAutoresizingMaskIntoConstraints="NO" id="S76-z0-jtt">
-                                <rect key="frame" x="0.0" y="20" width="375" height="647"/>
-                                <connections>
-                                    <outlet property="delegate" destination="78N-W0-JFt" id="a5H-bC-p9X"/>
-                                </connections>
-                            </mapView>
-                            <button opaque="NO" alpha="0.90000000000000002" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TQ0-GP-655">
-                                <rect key="frame" x="0.0" y="607" width="375" height="60"/>
-                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.25" colorSpace="custom" customColorSpace="sRGB"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="60" id="3LH-Jw-yMO"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" name="OpenSans-Semibold" family="Open Sans" pointSize="17"/>
-                                <state key="normal" title="Back">
-                                    <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                </state>
-                                <connections>
-                                    <action selector="goBack:" destination="78N-W0-JFt" eventType="touchUpInside" id="GIM-zO-1Ry"/>
-                                </connections>
-                            </button>
-                        </subviews>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                        <constraints>
-                            <constraint firstItem="S76-z0-jtt" firstAttribute="top" secondItem="uKf-GT-tjY" secondAttribute="bottom" id="8tI-1S-bX2"/>
-                            <constraint firstItem="TQ0-GP-655" firstAttribute="leading" secondItem="zro-kS-KE9" secondAttribute="leading" id="DgA-55-ha4"/>
-                            <constraint firstItem="S76-z0-jtt" firstAttribute="leading" secondItem="zro-kS-KE9" secondAttribute="leading" id="NZ8-7z-Oen"/>
-                            <constraint firstItem="zUb-yd-U4t" firstAttribute="top" secondItem="S76-z0-jtt" secondAttribute="bottom" id="Vr1-ID-JzI"/>
-                            <constraint firstAttribute="trailing" secondItem="S76-z0-jtt" secondAttribute="trailing" id="agH-z8-Fej"/>
-                            <constraint firstItem="zUb-yd-U4t" firstAttribute="top" secondItem="TQ0-GP-655" secondAttribute="bottom" id="fjU-AK-IB8"/>
-                            <constraint firstAttribute="trailing" secondItem="TQ0-GP-655" secondAttribute="trailing" id="iBu-D8-2Qi"/>
-                        </constraints>
-                    </view>
-                    <connections>
-                        <outlet property="mapView" destination="S76-z0-jtt" id="Lec-Eq-WCB"/>
-                    </connections>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="ecy-9l-vnP" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="2981" y="505"/>
+            <point key="canvasLocation" x="2211" y="610"/>
         </scene>
     </scenes>
     <resources>
@@ -772,6 +665,6 @@ Click here to stop scaning</string>
         <image name="tag" width="96" height="96"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="jHy-Ft-kYO"/>
+        <segue reference="iPk-Fx-WYu"/>
     </inferredMetricsTieBreakers>
 </document>

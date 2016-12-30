@@ -24,7 +24,6 @@
 		DBF9B1D01E14038400320773 /* ViewCircle.m in Sources */ = {isa = PBXBuildFile; fileRef = DBF9B1CF1E14038400320773 /* ViewCircle.m */; };
 		DBF9B1D31E14080300320773 /* GenericViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DBF9B1D21E14080300320773 /* GenericViewController.m */; };
 		DBF9B1D71E14131700320773 /* UIColor+HexColors.m in Sources */ = {isa = PBXBuildFile; fileRef = DBF9B1D61E14131700320773 /* UIColor+HexColors.m */; };
-		DBF9B1DA1E14138200320773 /* goevent.m in Sources */ = {isa = PBXBuildFile; fileRef = DBF9B1D91E14138200320773 /* goevent.m */; };
 		DBF9B1F51E153E6900320773 /* AFHTTPRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = DBF9B1E31E153E6900320773 /* AFHTTPRequestOperation.m */; };
 		DBF9B1F61E153E6900320773 /* AFHTTPRequestOperationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = DBF9B1E51E153E6900320773 /* AFHTTPRequestOperationManager.m */; };
 		DBF9B1F71E153E6900320773 /* AFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = DBF9B1E71E153E6900320773 /* AFHTTPSessionManager.m */; };
@@ -42,8 +41,12 @@
 		DBF9B2151E153E7700320773 /* UIProgressView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = DBF9B20B1E153E7700320773 /* UIProgressView+AFNetworking.m */; };
 		DBF9B2161E153E7700320773 /* UIRefreshControl+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = DBF9B20D1E153E7700320773 /* UIRefreshControl+AFNetworking.m */; };
 		DBF9B2171E153E7700320773 /* UIWebView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = DBF9B20F1E153E7700320773 /* UIWebView+AFNetworking.m */; };
-		DBF9B21B1E1559C200320773 /* OHAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = DBF9B21A1E1559C200320773 /* OHAlertView.m */; };
 		DBF9B21E1E15A1BC00320773 /* MapCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DBF9B21D1E15A1BC00320773 /* MapCell.m */; };
+		DBF9B2241E16BFAC00320773 /* mapstogpx20161230_161440.gpx in Resources */ = {isa = PBXBuildFile; fileRef = DBF9B2231E16BFAC00320773 /* mapstogpx20161230_161440.gpx */; };
+		DBF9B2261E16C4F200320773 /* locationUpdateManager.m in Sources */ = {isa = PBXBuildFile; fileRef = DBF9B2251E16C4F200320773 /* locationUpdateManager.m */; };
+		DBF9B2291E16E3C000320773 /* CustomBadge.m in Sources */ = {isa = PBXBuildFile; fileRef = DBF9B2281E16E3C000320773 /* CustomBadge.m */; };
+		DBF9B2311E16E56200320773 /* ListGiftTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DBF9B22D1E16E56200320773 /* ListGiftTableViewController.m */; };
+		DBF9B2321E16E56200320773 /* ListGiftViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DBF9B22F1E16E56200320773 /* ListGiftViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -97,8 +100,6 @@
 		DBF9B1D21E14080300320773 /* GenericViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GenericViewController.m; path = viewControllers/GenericViewController.m; sourceTree = "<group>"; };
 		DBF9B1D51E14131700320773 /* UIColor+HexColors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIColor+HexColors.h"; path = "lib/HexColors/UIColor+HexColors.h"; sourceTree = "<group>"; };
 		DBF9B1D61E14131700320773 /* UIColor+HexColors.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIColor+HexColors.m"; path = "lib/HexColors/UIColor+HexColors.m"; sourceTree = "<group>"; };
-		DBF9B1D81E14135D00320773 /* goEvnet.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = goEvnet.h; sourceTree = "<group>"; };
-		DBF9B1D91E14138200320773 /* goevent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = goevent.m; sourceTree = "<group>"; };
 		DBF9B1E21E153E6900320773 /* AFHTTPRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AFHTTPRequestOperation.h; path = "lib/AFNetworking-2.2.0/AFNetworking/AFHTTPRequestOperation.h"; sourceTree = "<group>"; };
 		DBF9B1E31E153E6900320773 /* AFHTTPRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AFHTTPRequestOperation.m; path = "lib/AFNetworking-2.2.0/AFNetworking/AFHTTPRequestOperation.m"; sourceTree = "<group>"; };
 		DBF9B1E41E153E6900320773 /* AFHTTPRequestOperationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AFHTTPRequestOperationManager.h; path = "lib/AFNetworking-2.2.0/AFNetworking/AFHTTPRequestOperationManager.h"; sourceTree = "<group>"; };
@@ -136,10 +137,17 @@
 		DBF9B20D1E153E7700320773 /* UIRefreshControl+AFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIRefreshControl+AFNetworking.m"; path = "lib/AFNetworking-2.2.0/UIKit+AFNetworking/UIRefreshControl+AFNetworking.m"; sourceTree = "<group>"; };
 		DBF9B20E1E153E7700320773 /* UIWebView+AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIWebView+AFNetworking.h"; path = "lib/AFNetworking-2.2.0/UIKit+AFNetworking/UIWebView+AFNetworking.h"; sourceTree = "<group>"; };
 		DBF9B20F1E153E7700320773 /* UIWebView+AFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIWebView+AFNetworking.m"; path = "lib/AFNetworking-2.2.0/UIKit+AFNetworking/UIWebView+AFNetworking.m"; sourceTree = "<group>"; };
-		DBF9B2191E1559C200320773 /* OHAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OHAlertView.h; path = lib/OHAlertView.h; sourceTree = "<group>"; };
-		DBF9B21A1E1559C200320773 /* OHAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OHAlertView.m; path = lib/OHAlertView.m; sourceTree = "<group>"; };
 		DBF9B21C1E159FAC00320773 /* MapCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MapCell.h; sourceTree = "<group>"; };
 		DBF9B21D1E15A1BC00320773 /* MapCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapCell.m; sourceTree = "<group>"; };
+		DBF9B2201E16924F00320773 /* locationUpdateManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = locationUpdateManager.h; sourceTree = "<group>"; };
+		DBF9B2231E16BFAC00320773 /* mapstogpx20161230_161440.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = mapstogpx20161230_161440.gpx; sourceTree = "<group>"; };
+		DBF9B2251E16C4F200320773 /* locationUpdateManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = locationUpdateManager.m; sourceTree = "<group>"; };
+		DBF9B2271E16E3C000320773 /* CustomBadge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CustomBadge.h; path = lib/CustomBadge.h; sourceTree = "<group>"; };
+		DBF9B2281E16E3C000320773 /* CustomBadge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CustomBadge.m; path = lib/CustomBadge.m; sourceTree = "<group>"; };
+		DBF9B22C1E16E56100320773 /* ListGiftTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ListGiftTableViewController.h; path = viewControllers/ListGiftTableViewController.h; sourceTree = "<group>"; };
+		DBF9B22D1E16E56200320773 /* ListGiftTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ListGiftTableViewController.m; path = viewControllers/ListGiftTableViewController.m; sourceTree = "<group>"; };
+		DBF9B22E1E16E56200320773 /* ListGiftViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ListGiftViewController.h; path = viewControllers/ListGiftViewController.h; sourceTree = "<group>"; };
+		DBF9B22F1E16E56200320773 /* ListGiftViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ListGiftViewController.m; path = viewControllers/ListGiftViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -171,6 +179,7 @@
 		DBCB083B1E12C4AD00466830 = {
 			isa = PBXGroup;
 			children = (
+				DBF9B2231E16BFAC00320773 /* mapstogpx20161230_161440.gpx */,
 				DBCB08461E12C4AD00466830 /* EventGo */,
 				DBCB08631E12C4AD00466830 /* EventGoTests */,
 				DBCB086E1E12C4AD00466830 /* EventGoUITests */,
@@ -192,6 +201,7 @@
 		DBCB08461E12C4AD00466830 /* EventGo */ = {
 			isa = PBXGroup;
 			children = (
+				DBF9B21F1E16922800320773 /* ScanSDK */,
 				DBF9B1971E1400EB00320773 /* Librairies */,
 				DBF9B1961E1400D900320773 /* View */,
 				DBCB08801E12C56000466830 /* ViewControllers */,
@@ -203,8 +213,6 @@
 				DBCB085B1E12C4AD00466830 /* Info.plist */,
 				DBCB08471E12C4AD00466830 /* Supporting Files */,
 				DBF9B19B1E14015B00320773 /* constants.h */,
-				DBF9B1D81E14135D00320773 /* goEvnet.h */,
-				DBF9B1D91E14138200320773 /* goevent.m */,
 			);
 			path = EventGo;
 			sourceTree = "<group>";
@@ -247,6 +255,10 @@
 		DBCB08801E12C56000466830 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				DBF9B22C1E16E56100320773 /* ListGiftTableViewController.h */,
+				DBF9B22D1E16E56200320773 /* ListGiftTableViewController.m */,
+				DBF9B22E1E16E56200320773 /* ListGiftViewController.h */,
+				DBF9B22F1E16E56200320773 /* ListGiftViewController.m */,
 				DBF9B1D11E14080300320773 /* GenericViewController.h */,
 				DBF9B1D21E14080300320773 /* GenericViewController.m */,
 				DBCB08841E12D82300466830 /* DetailPlaceViewController.h */,
@@ -259,8 +271,6 @@
 				DBCB088F1E12D82300466830 /* HomeViewController.m */,
 				DBCB08961E12D82300466830 /* MapViewController.h */,
 				DBCB08971E12D82300466830 /* MapViewController.m */,
-				DBF9B21C1E159FAC00320773 /* MapCell.h */,
-				DBF9B21D1E15A1BC00320773 /* MapCell.m */,
 			);
 			name = ViewControllers;
 			sourceTree = "<group>";
@@ -276,6 +286,8 @@
 		DBF9B1961E1400D900320773 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				DBF9B21C1E159FAC00320773 /* MapCell.h */,
+				DBF9B21D1E15A1BC00320773 /* MapCell.m */,
 				DBF9B1CE1E14038400320773 /* ViewCircle.h */,
 				DBF9B1CF1E14038400320773 /* ViewCircle.m */,
 			);
@@ -285,8 +297,8 @@
 		DBF9B1971E1400EB00320773 /* Librairies */ = {
 			isa = PBXGroup;
 			children = (
-				DBF9B2191E1559C200320773 /* OHAlertView.h */,
-				DBF9B21A1E1559C200320773 /* OHAlertView.m */,
+				DBF9B2271E16E3C000320773 /* CustomBadge.h */,
+				DBF9B2281E16E3C000320773 /* CustomBadge.m */,
 				DBF9B2181E15590600320773 /* OHAlert */,
 				DBF9B1DF1E153E2F00320773 /* AFNetworking-2.2.0 */,
 				DBF9B1D41E1412E300320773 /* HexColor */,
@@ -368,6 +380,15 @@
 			children = (
 			);
 			name = OHAlert;
+			sourceTree = "<group>";
+		};
+		DBF9B21F1E16922800320773 /* ScanSDK */ = {
+			isa = PBXGroup;
+			children = (
+				DBF9B2201E16924F00320773 /* locationUpdateManager.h */,
+				DBF9B2251E16C4F200320773 /* locationUpdateManager.m */,
+			);
+			name = ScanSDK;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -490,6 +511,7 @@
 				DBCB08831E12CD5500466830 /* logo.png in Resources */,
 				DBCB085A1E12C4AD00466830 /* LaunchScreen.storyboard in Resources */,
 				DBCB08571E12C4AD00466830 /* Assets.xcassets in Resources */,
+				DBF9B2241E16BFAC00320773 /* mapstogpx20161230_161440.gpx in Resources */,
 				DBCB08521E12C4AD00466830 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -516,8 +538,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				DBF9B1F51E153E6900320773 /* AFHTTPRequestOperation.m in Sources */,
-				DBF9B1DA1E14138200320773 /* goevent.m in Sources */,
-				DBF9B21B1E1559C200320773 /* OHAlertView.m in Sources */,
 				DBCB089C1E12D82300466830 /* HomeMapViewController.m in Sources */,
 				DBF9B1D31E14080300320773 /* GenericViewController.m in Sources */,
 				DBF9B1D01E14038400320773 /* ViewCircle.m in Sources */,
@@ -527,6 +547,7 @@
 				DBF9B1D71E14131700320773 /* UIColor+HexColors.m in Sources */,
 				DBF9B1F81E153E6900320773 /* AFNetworkReachabilityManager.m in Sources */,
 				DBCB08991E12D82300466830 /* EventCell.m in Sources */,
+				DBF9B2261E16C4F200320773 /* locationUpdateManager.m in Sources */,
 				DBF9B2141E153E7700320773 /* UIImageView+AFNetworking.m in Sources */,
 				DBF9B2151E153E7700320773 /* UIProgressView+AFNetworking.m in Sources */,
 				DBF9B1FC1E153E6900320773 /* AFURLResponseSerialization.m in Sources */,
@@ -535,11 +556,14 @@
 				DBF9B1FA1E153E6900320773 /* AFURLConnectionOperation.m in Sources */,
 				DBF9B2131E153E7700320773 /* UIButton+AFNetworking.m in Sources */,
 				DBF9B2111E153E7700320773 /* UIActivityIndicatorView+AFNetworking.m in Sources */,
+				DBF9B2321E16E56200320773 /* ListGiftViewController.m in Sources */,
 				DBF9B1F61E153E6900320773 /* AFHTTPRequestOperationManager.m in Sources */,
 				DBCB08981E12D82300466830 /* DetailPlaceViewController.m in Sources */,
+				DBF9B2311E16E56200320773 /* ListGiftTableViewController.m in Sources */,
 				DBCB08A11E12D82300466830 /* MapViewController.m in Sources */,
 				DBF9B1F91E153E6900320773 /* AFSecurityPolicy.m in Sources */,
 				DBCB089D1E12D82300466830 /* HomeViewController.m in Sources */,
+				DBF9B2291E16E3C000320773 /* CustomBadge.m in Sources */,
 				DBF9B2171E153E7700320773 /* UIWebView+AFNetworking.m in Sources */,
 				DBCB084C1E12C4AD00466830 /* AppDelegate.m in Sources */,
 				DBCB08491E12C4AD00466830 /* main.m in Sources */,

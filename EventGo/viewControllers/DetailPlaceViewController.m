@@ -13,7 +13,7 @@
 #import "MapViewController.h"
 #import "UIKit+AFNetworking.h"
 #import "constants.h"
-
+#import "locationUpdateManager.h"
 @interface DetailPlaceViewController ()
 @property (weak, nonatomic) IBOutlet UILabel *lbl_longDescription;
 @property (weak, nonatomic) IBOutlet UIImageView *img_place;
@@ -36,14 +36,13 @@
 
 - (void)viewWillAppear:(BOOL)animated {
 
-//    if ([[UcheckinManager sharedManager] isScanning]) {
-//    
-//        _view_topBar.backgroundColor = [UIColor colorWithRed:Yellow_red green:Yellow_green blue:Yellow_blue alpha:1.0];
-//    }
-//    else {
+    if ([[locationUpdateManager sharedStandardManager] isScanning]) {
+    
+        _view_topBar.backgroundColor = [UIColor colorWithRed:Yellow_red green:Yellow_green blue:Yellow_blue alpha:1.0];
+    }
+    else {
         _view_topBar.backgroundColor = [UIColor colorWithRed:Green_red green:Green_green blue:Green_blue alpha:1.0];
-//
-//    }
+    }
 
     _lbl_eventName.text = [_event[@"event_name"] uppercaseString];
     _lbl_shortDescription.text = [_event[@"description"] uppercaseString];

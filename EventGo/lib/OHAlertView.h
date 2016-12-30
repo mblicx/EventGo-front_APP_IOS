@@ -9,7 +9,7 @@
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
 
-@interface OHAlertView : UIAlertView
+@interface OHAlertView : UIAlertController
 
 typedef void(^OHAlertViewButtonHandler)(OHAlertView* alert, NSInteger buttonIndex);
 @property (nonatomic, copy) OHAlertViewButtonHandler buttonHandler;

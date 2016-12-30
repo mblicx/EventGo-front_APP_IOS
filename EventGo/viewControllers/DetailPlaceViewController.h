@@ -7,7 +7,6 @@
 //
 
 #import "GenericViewController.h"
-#import "goEvnet.h"
 
 @interface DetailPlaceViewController : GenericViewController
 

@@ -150,7 +150,7 @@
 /////////////////////////////////////////////////////////////////////////////
 #pragma mark - UIAlertView Delegate Methods
 
--(void)alertView:(UIAlertView *)alertView didDismissWithButtonIndex:(NSInteger)buttonIndex
+-(void)alertView:(UIAlertController *)alertView didDismissWithButtonIndex:(NSInteger)buttonIndex
 {
 	if (self.buttonHandler)
     {
